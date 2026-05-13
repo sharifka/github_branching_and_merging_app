@@ -7,7 +7,17 @@ class Profile extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Profile Screen')),
-      body: const Center(child: Text('Welcome to the Profile Screen!')),
+      body: Column(
+        children: [
+          const Center(child: Text('Welcome to the Profile Screen!')),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            child: const Text('Go Back'),
+          ),
+        ],
+      ),
     );
   }
 }
