@@ -6,13 +6,8 @@ class SettingScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Settings'),
-      ),
-      body: const Padding(
-        padding: EdgeInsets.all(16.0),
-        child: Text('Settings content goes here.'),
-      ),
+      appBar: AppBar(title: const Text('Setting Screen')),
+      body: const Center(child: Text('Welcome to the Setting Screen!')),
     );
   }
 }
