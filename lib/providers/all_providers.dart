@@ -4,4 +4,8 @@ class AllProviders extends ChangeNotifier {
   void test() {
     print("test");
   }
+  void siraaji() {
+    print("siraaji");
+  }
 }
+
