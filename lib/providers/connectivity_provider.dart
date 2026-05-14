@@ -7,6 +7,7 @@ class ConnectivityProvider  extends ChangeNotifier{
     // For demonstration, we'll just print a message
   }
   void checkInternet() {
+    //check internet connectivity logic here
     print("Checking internet connectivity...");
   }
 }
