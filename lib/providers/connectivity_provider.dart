@@ -8,4 +8,7 @@ class ConnectivityProvider  extends ChangeNotifier{
     //check internet connectivity logic here
     print("Checking internet connectivity...");
   }
+  void testConnections(){
+    print("here is test connection function");
+  }
 }
