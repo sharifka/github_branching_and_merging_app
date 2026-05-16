@@ -8,10 +8,12 @@ class AllProviders extends ChangeNotifier {
   void test2() {
     print("test2");
   } 
+  //getInfo
   void getInfo() {
     print("getInfo");
-    void siraaji() {
+  }
+  //siraaji
+  void siraaji() {
       print("siraaji");
     }
-  }
 }
